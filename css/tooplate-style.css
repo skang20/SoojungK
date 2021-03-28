@@ -1,0 +1,227 @@
+/*
+
+Tooplate 2122 Nano Folio
+
+https://www.tooplate.com/view/2122-nano-folio
+
+*/
+
+html { overflow-x: hidden; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  line-height: 1.2em;
+  overflow-x: hidden;
+}
+
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #4E0013;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sidenav #active {
+  font-size: 30px;
+}
+
+.sidenav a:hover {
+  color: #EB6E8C;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  text-align: right;
+  padding: 1em;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
+
+
+
+
+
+
+.photo {
+
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #FFFDEE;
+}
+
+a:hover { color: #ffe100; }
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.subtle {
+  text-align: left;
+  padding-top: 50px;
+  line-height: 120%;
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+
+}
+
+h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+
+p {
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+
+.title {
+  color: black;
+  line-height: 120%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+}
+
+
+.name {
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: inherit;
+
+}
+
+.site-header { min-height: 75vh; }
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+section {
+  padding: 4em 0.5em;
+}
+
+.about,
+.portfolio {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+
+
+.portfolio { flex-direction: row-reverse; }
+
+@media (min-width: 60em) {
+  .about {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+
+.social {
+  width: 50px;
+  height: 50px;
+  display: contents;
+
+}
+
+.bgcolor-1 { background-color: #FFFDEE; }
+.bgcolor-2 { background-color: #BF475E; }
+.bgcolor-3 { background-color: #F5999B; }
+.bgcolor-4 { background-color: #FCC1C3; }
+.bgcolor-5 { background-color: #FFDBDC; }
+.bgcolor-6 { background-color: #FFFDEE; }
+
+
+
+.container {
+  width:100%;
+  text-align:center;
+  margin:0px auto;
+  position: relative;
+  max-width: 60em;
+}
+
+.container img {
+  width:100%;
+  height:auto
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 100%;
+  background-color: #FFFDEE;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+  background-color: #FFFDEE;
+  color: black;
+  font-size: 15px;
+  padding: 1em 0.5em;
+}
