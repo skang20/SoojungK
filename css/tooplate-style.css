@@ -60,6 +60,7 @@ nav a {
 .logo {
   width: 20%;
   height: auto;
+  min-width: 15em;
 }
 
 
